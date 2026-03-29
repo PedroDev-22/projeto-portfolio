@@ -20,7 +20,7 @@ botao.addEventListener('click', () => {
   const isescuro = body.classList.toggle('escuro');
   temaEscuro(isescuro);
   localStorage.setItem('tema', isescuro ? 'escuro' : 'claro');
-});
+}); 
 
 // Scroll suave para links de navegação
 const navLinks = document.querySelectorAll('#menu ul a.link');
